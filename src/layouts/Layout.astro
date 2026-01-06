@@ -1,0 +1,23 @@
+---
+const title = "OUTES — Production audiovisuelle";
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+
+  <body>
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      © {new Date().getFullYear()} OUTES — Tous droits réservés
+    </footer>
+  </body>
+</html>
